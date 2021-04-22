@@ -1,6 +1,6 @@
 # EdzestervTracker
 
-Ennek a weboldalnak a funkciója mások és saját konditermi edzésem kisegítése. 
+A weboldal funkciója mások és saját konditermi edzésem kisegítése. 
 
 Alapprobléma: konditermi edzésem során sokszor elveszett a rendszeresség, elfelejtettem, hol is tartok éppen, mit kellene csinálnom az egyenletes fejlődéshez.
 

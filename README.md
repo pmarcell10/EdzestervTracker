@@ -1,5 +1,7 @@
 # EdzestervTracker
 
+Érvényes teszt Cutler azonosító: bevt76
+
 A weboldal funkciója mások és saját konditermi edzésem kisegítése. 
 
 Alapprobléma: konditermi edzésem során sokszor elveszett a rendszeresség, elfelejtettem, hol is tartok éppen, mit kellene csinálnom az egyenletes fejlődéshez.

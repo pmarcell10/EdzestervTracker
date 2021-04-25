@@ -19,7 +19,7 @@ function UserLogin($email, $password) {
 	$query = "SELECT id, fname, lname, email, berletid, felosztas, permission, terv_set, rotation FROM users WHERE email = :email AND password = :password";
 	$params = [
 		':email' => $email,
-		':password' => $password
+		':password' => sha1($password)
 	]; 
 
 	require_once DATABASE_CONTROLLER;
@@ -53,7 +53,7 @@ function UserRegister($email, $password, $fname, $lname, $berletId, $felosztas) 
 			':first_name' => $fname,
 			':last_name' => $lname,
 			':email' => $email,
-			':password' => $password,
+			':password' => sha1($password),
 			':berletid' => $berletId,
 			':felosztas' => $felosztas,
 			':last_alkalom' => 0,
